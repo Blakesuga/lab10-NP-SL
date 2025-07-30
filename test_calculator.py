@@ -1,6 +1,6 @@
 #https://github.com/Blakesuga/lab10-NP-SL
 # Partner 1: Natania Philippe
-# Partner 2: Seth Lee
+# Partner 2: Seth Lea
 
 import unittest
 from calculator import *
