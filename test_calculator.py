@@ -1,9 +1,10 @@
-import unittest
-from calculator import *
-
 #https://github.com/Blakesuga/lab10-NP-SL
 # Partner 1: Natania Philippe
 # Partner 2: Seth Lee
+
+import unittest
+from calculator import *
+
 
 
 class TestCalculator(unittest.TestCase):
