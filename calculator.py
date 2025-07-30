@@ -4,8 +4,45 @@ calculator.py
 
 One function per operation, in order.
 """
-# First example
+
+import math
+
+
+# add function
 def add(a, b): 
-    pass
+    a + b
 
 
+# sub function
+def sub(a, b):
+    return a - b
+
+
+# mul function
+def mul(a, b):
+    return a * b
+
+
+# div function
+def div(a, b):
+    try:
+        return b / a
+
+    except:
+        if a == 0:
+            raise ZeroDivisionError
+
+
+# log function
+def log(a, b):
+
+    try:
+        return math.log(b, a)
+
+    except:
+        if a == 0:
+            raise ValueError
+
+# expo function
+def exp(a, b):
+    return math.pow(a, b)
