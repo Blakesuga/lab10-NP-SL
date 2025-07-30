@@ -1,5 +1,6 @@
 import math
 
+<<<<<<< HEAD
 def add(a, b):
     return a + b
 
@@ -8,14 +9,6 @@ def sub(a, b):
 
 def mul(a, b):
     return a * b
-
-def div(a, b):
-    try:
-        return b / a
-
-    except:
-        if a == 0:
-            raise ZeroDivisionError
 
 
 def log(a, b):
@@ -27,5 +20,3 @@ def log(a, b):
 
 def exp(a, b):
     return math.pow(a, b)
-
-
