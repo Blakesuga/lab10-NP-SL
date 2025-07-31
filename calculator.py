@@ -10,6 +10,9 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
+def subtract(a, b):
+    return a - b
+
 def mul(a, b):
     return a * b
 
@@ -25,6 +28,13 @@ def log(a, b):
     try:
         return math.log(b, a)
 
+    except:
+        if b <= 0:
+            raise ValueError
+
+def logarithm(a, b):
+    try:
+        return math.log(b, a)
     except:
         if b <= 0:
             raise ValueError
