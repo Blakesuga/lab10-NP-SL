@@ -1,3 +1,7 @@
+# https://github.com/Blakesuga/lab10-NP-SL
+# Partner 1: Natania Philippe
+# Partner 2: Seth Lee
+
 import math
 
 def add(a, b):

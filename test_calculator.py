@@ -1,7 +1,7 @@
 import unittest
 from calculator import *
 
-#
+# https://github.com/Blakesuga/lab10-NP-SL
 # Partner 1: Natania Philippe
 # Partner 2: Seth Lee
 
@@ -17,9 +17,9 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     def test_multiply(self): # 3 assertions
-        self.assertIs(mul(3, 9), 27)
-        self.assertIs(mul(6, 6), 36)
-        self.assertIs(mul(4, 24), 108)
+        self.assertEqual(mul(3, 9), 27)
+        self.assertEqual(mul(6, 6), 36)
+        self.assertEqual(mul(4, 24), 108)
 
     def test_divide(self): # 3 assertions
         self.assertAlmostEqual(div(3, 9), 3)
@@ -49,16 +49,16 @@ class TestCalculator(unittest.TestCase):
             log(0, 5)
 
     def test_hypotenuse(self): # 3 assertions
-        self.assertIs(hypotenuse(4, 5), 41)
-        self.assertIs(hypotenuse(2, 3), 13)
-        self.assertIs(hypotenuse(7, 4), 65)
+        self.assertEqual(hypotenuse(4, 5), 41)
+        self.assertEqual(hypotenuse(2, 3), 13)
+        self.assertEqual(hypotenuse(7, 4), 65)
 
     def test_sqrt(self): # 3 assertions
         with self.assertRaises(ValueError):
            square_root(-1)
 
-        self.assertIs(sqrt(4), 2)
-        self.assertIs(sqrt(1), 1)
+        self.assertEqual(square_root(4), 2)
+        self.assertEqual(square_root(1), 1)
 
     ##########################
 
