@@ -24,6 +24,7 @@ def div(a, b):
 def log(a, b):
     try:
         return math.log(b, a)
+
     except:
         if b <= 0:
             raise ValueError
